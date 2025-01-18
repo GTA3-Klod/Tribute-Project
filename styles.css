@@ -1,0 +1,56 @@
+body {
+    font-family: "Kanit", serif;
+}
+main {
+    background: #009FBD;
+    color: #F9E2AF;
+}
+
+figure {
+    background: #4A249D;
+    color: #F6F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    max-width: 100%;
+    margin: 50px;
+}
+
+figcaption {
+    text-align: center;
+    max-width: 100%;
+    width: 700px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    text-align: center;
+}
